@@ -69,11 +69,16 @@ class Spider(Spider):
         pass
 
     def categoryContent(self, tid, pg, filter, extend):
-        data=self.getpq(requests.get(f"{self.host}{tid}{pg}", headers=self.headers,proxies=self.proxies).text)
+        if '@folder' in tid:
+            id = tid.replace('@folder', '')
+            videos = self.getfod(id)
+        else:
+            data = self.getpq(requests.get(f"{self.host}{tid}{pg}", headers=self.headers, proxies=self.proxies).text)
+            videos = self.getlist(data('#archive article a'), tid)
         result = {}
-        result['list'] = self.getlist(data('#archive article a'))
+        result['list'] = videos
         result['page'] = pg
-        result['pagecount'] = 9999
+        result['pagecount'] = 1 if '@folder' in tid else 99999
         result['limit'] = 90
         result['total'] = 999999
         return result
@@ -270,19 +275,39 @@ class Spider(Spider):
 
         return min(results.items(), key=lambda x: x[1])[0]
 
-    def getlist(self,data):
+    def getlist(self, data, tid=''):
         videos = []
+        l = '/mrdg' in tid
         for k in data.items():
-            a=k.attr('href')
-            b=k('h2').text()
-            c=k('span[itemprop="datePublished"]').text()
+            a = k.attr('href')
+            b = k('h2').text()
+            c = k('span[itemprop="datePublished"]').text()
             if a and b and c:
                 videos.append({
-                    'vod_id': a,
+                    'vod_id': f"{a}{'@folder' if l else ''}",
                     'vod_name': b.replace('\n', ' '),
                     'vod_pic': self.getimg(k('script').text()),
                     'vod_remarks': c,
+                    'vod_tag': 'folder' if l else '',
                     'style': {"type": "rect", "ratio": 1.33}
+                })
+        return videos
+
+    def getfod(self, id):
+        url = f"{self.host}{id}"
+        data = self.getpq(requests.get(url, headers=self.headers, proxies=self.proxies).text)
+        vdata=data('.post-content[itemprop="articleBody"]')
+        r=['.txt-apps','.line','blockquote','.tags','.content-tabs']
+        for i in r:vdata.remove(i)
+        p=vdata('p')
+        videos=[]
+        for i,x in enumerate(vdata('h2').items()):
+            c=i*2
+            videos.append({
+                'vod_id': p.eq(c)('a').attr('href'),
+                'vod_name': p.eq(c).text(),
+                'vod_pic': f"{self.getProxyUrl()}&url={p.eq(c+1)('img').attr('data-xkrkllgl')}&type=img",
+                'vod_remarks':x.text()
                 })
         return videos
 
