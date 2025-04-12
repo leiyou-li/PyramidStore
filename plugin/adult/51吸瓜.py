@@ -38,6 +38,7 @@ class Spider(Spider):
         }
         self.host=self.host_late(self.gethosts())
         self.headers.update({'Origin': self.host, 'Referer': f"{self.host}/"})
+        self.getcnh()
         pass
 
     def getName(self):
@@ -180,8 +181,18 @@ class Spider(Spider):
             return ""
 
     def gethosts(self):
+        url = 'https://51cg.fun'
+        curl = self.getCache('host_51cn')
+        if curl:
+            try:
+                data = self.getpq(requests.get(curl, headers=self.headers, proxies=self.proxies).text)('a').attr('href')
+                if data:
+                    parsed_url = urlparse(data)
+                    url = parsed_url.scheme + "://" + parsed_url.netloc
+            except:
+                pass
         try:
-            html = self.getpq(requests.get("https://51cg.fun", headers=self.headers, proxies=self.proxies).text)
+            html = self.getpq(requests.get(url, headers=self.headers, proxies=self.proxies).text)
             html_pattern = r"Base64\.decode\('([^']+)'\)"
             html_match = re.search(html_pattern, html('script').eq(-1).text(), re.DOTALL)
             if not html_match: raise Exception("未找到html")
@@ -190,6 +201,13 @@ class Spider(Spider):
         except Exception as e:
             self.log(f"获取: {str(e)}")
             return ""
+
+    def getcnh(self):
+        data=self.getpq(requests.get(f"{self.host}/ybml.html", headers=self.headers,proxies=self.proxies).text)
+        url=data('.post-content[itemprop="articleBody"] blockquote p').eq(0)('a').attr('href')
+        parsed_url = urlparse(url)
+        host = parsed_url.scheme + "://" + parsed_url.netloc
+        self.setCache('host_51cn',host)
 
     def hstr(self, html):
         pattern = r"(backupLine\s*=\s*\[\])\s+(words\s*=)"

@@ -59,13 +59,12 @@ class Spider(Spider):
         result = {}
         classes = []
         ldata=data('.wrap.border-box.public-r .public-list-box')
-        for k in data('.swiper-wrapper .swiper-slide').items():
-            i=k('a').attr('href')
-            if i and '/show' in i:
-                classes.append({
-                    'type_name': k.text(),
-                    'type_id': i.split('/')[-1].split('-')[0],
-                })
+        cd={"新番":"32","番剧":"20","剧场":"33"}
+        for k,r in cd.items():
+            classes.append({
+                'type_name': k,
+                'type_id': r,
+            })
         videos=[]
         for i in ldata.items():
             j = i('.public-list-exp')
