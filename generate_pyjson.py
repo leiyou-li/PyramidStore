@@ -8,6 +8,14 @@ def generate_pyjson():
         "sites": [],
         "parses": [
             {
+                "name": "4k",
+                "url": "http://156.225.30.142:1001/api/index?parsesId=8&appid=10000&videoUrl=",
+                "type": 1,
+                "header": {
+                    "User-Agent": "Mozilla/5.0"
+                }
+            },
+            {
                 "name": "巧计1https://zy.qiaoji8.com/gouzi.php?url=",
                 "url": "1",
                 "type": 0,
