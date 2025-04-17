@@ -12,6 +12,17 @@
       "ext": ""
     },
     {
+      "key": "wogg_wobg分类筛选生成.py",
+      "name": "wogg_wobg分类筛选生成(py)",
+      "type": 3,
+      "api": "./plugin/tools/wogg_wobg分类筛选生成.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
       "key": "爱.py",
       "name": "爱(py)",
       "type": 3,
@@ -115,6 +126,17 @@
       "name": "国外剧APP(py)",
       "type": 3,
       "api": "./plugin/app/国外剧APP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "零度影视APP.py",
+      "name": "零度影视APP(py)",
+      "type": 3,
+      "api": "./plugin/app/零度影视APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
