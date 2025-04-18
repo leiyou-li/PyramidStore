@@ -199,6 +199,17 @@
       "ext": ""
     },
     {
+      "key": "奇迹APP.py",
+      "name": "奇迹APP(py)",
+      "type": 3,
+      "api": "./plugin/app/奇迹APP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
       "key": "视觉APP.py",
       "name": "视觉APP(py)",
       "type": 3,
@@ -441,6 +452,17 @@
       "ext": ""
     },
     {
+      "key": "偷乐短剧.py",
+      "name": "偷乐短剧(py)",
+      "type": 3,
+      "api": "./plugin/html/偷乐短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
       "key": "小红影视.py",
       "name": "小红影视(py)",
       "type": 3,
@@ -537,6 +559,17 @@
       "name": "LIVES(py)",
       "type": 3,
       "api": "./plugin/html/LIVES.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "剧粑粑.py",
+      "name": "剧粑粑(py)",
+      "type": 3,
+      "api": "./plugin/html/剧粑粑.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
