@@ -115,6 +115,17 @@
       "ext": ""
     },
     {
+      "key": "柯南影视.py",
+      "name": "柯南影视(py)",
+      "type": 3,
+      "api": "./plugin/html/柯南影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
       "key": "偷乐短剧.py",
       "name": "偷乐短剧(py)",
       "type": 3,
