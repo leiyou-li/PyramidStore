@@ -8,7 +8,7 @@ def generate_pyjson():
         "sites": [],
         "parses": [
             {
-                "name": "4k",
+                "name": "解析1",
                 "url": "http://156.225.30.142:1001/api/index?parsesId=8&appid=10000&videoUrl=",
                 "type": 1,
                 "header": {
@@ -16,8 +16,16 @@ def generate_pyjson():
                 }
             },
             {
-                "name": "巧计1https://zy.qiaoji8.com/gouzi.php?url=",
-                "url": "1",
+                "name": "解析2",
+                "url": "http://appym.lyyytv.cn/api/index?parsesId=1&appid=10000&videoUrl=",
+                "type": 1,
+                "header": {
+                    "User-Agent": "Mozilla/5.0"
+                }
+            },
+            {
+                "name": "解析3",
+                "url": "http://121.62.21.61:8011/api/?key=TUV1b5pR3OPlJRCFaA&url=",
                 "type": 0,
                 "header": {
                     "User-Agent": "Mozilla/5.0"
