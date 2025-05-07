@@ -12,10 +12,10 @@
       "ext": ""
     },
     {
-      "key": "剧粑粑.py",
-      "name": "剧粑粑(py)",
+      "key": "若惜追剧APP.py",
+      "name": "若惜追剧APP(py)",
       "type": 3,
-      "api": "./plugin/html/剧粑粑.py",
+      "api": "./plugin/app/若惜追剧APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -23,10 +23,10 @@
       "ext": ""
     },
     {
-      "key": "绝对影视.py",
-      "name": "绝对影视(py)",
+      "key": "云速影视APP.py",
+      "name": "云速影视APP(py)",
       "type": 3,
-      "api": "./plugin/html/绝对影视.py",
+      "api": "./plugin/app/云速影视APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -34,245 +34,10 @@
       "ext": ""
     },
     {
-      "key": "好帅短剧.py",
-      "name": "好帅短剧(py)",
+      "key": "恋鱼影视APP.py",
+      "name": "恋鱼影视APP(py)",
       "type": 3,
-      "api": "./plugin/html/好帅短剧.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "金牌.py",
-      "name": "金牌(py)",
-      "type": 3,
-      "api": "./plugin/html/金牌.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": {
-        "ext": {
-          "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-        }
-      }
-    },
-    {
-      "key": "旺旺.py",
-      "name": "旺旺(py)",
-      "type": 3,
-      "api": "./plugin/html/旺旺.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "LIVES.py",
-      "name": "LIVES(py)",
-      "type": 3,
-      "api": "./plugin/html/LIVES.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "4KAV.py",
-      "name": "4KAV(py)",
-      "type": 3,
-      "api": "./plugin/html/4KAV.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "小红影视.py",
-      "name": "小红影视(py)",
-      "type": 3,
-      "api": "./plugin/html/小红影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "甜圈短剧.py",
-      "name": "甜圈短剧(py)",
-      "type": 3,
-      "api": "./plugin/html/甜圈短剧.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "柯南影视.py",
-      "name": "柯南影视(py)",
-      "type": 3,
-      "api": "./plugin/html/柯南影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "偷乐短剧.py",
-      "name": "偷乐短剧(py)",
-      "type": 3,
-      "api": "./plugin/html/偷乐短剧.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "红果网页.py",
-      "name": "红果网页(py)",
-      "type": 3,
-      "api": "./plugin/html/红果网页.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "LREEOK.py",
-      "name": "LREEOK(py)",
-      "type": 3,
-      "api": "./plugin/html/LREEOK.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "骚火电影.py",
-      "name": "骚火电影(py)",
-      "type": 3,
-      "api": "./plugin/html/骚火电影.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "嗷呜动漫.py",
-      "name": "嗷呜动漫(py)",
-      "type": 3,
-      "api": "./plugin/html/嗷呜动漫.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "MiFunAPP.py",
-      "name": "MiFunAPP(py)",
-      "type": 3,
-      "api": "./plugin/app/MiFunAPP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "魔方影视APP.py",
-      "name": "魔方影视APP(py)",
-      "type": 3,
-      "api": "./plugin/app/魔方影视APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "三号动漫APP.py",
-      "name": "三号动漫APP(py)",
-      "type": 3,
-      "api": "./plugin/app/三号动漫APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "国外剧APP.py",
-      "name": "国外剧APP(py)",
-      "type": 3,
-      "api": "./plugin/app/国外剧APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "悠悠APP.py",
-      "name": "悠悠APP(py)",
-      "type": 3,
-      "api": "./plugin/app/悠悠APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "哇哇APP.py",
-      "name": "哇哇APP(py)",
-      "type": 3,
-      "api": "./plugin/app/哇哇APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "火车太顺APP.py",
-      "name": "火车太顺APP(py)",
-      "type": 3,
-      "api": "./plugin/app/火车太顺APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "美帕APP.py",
-      "name": "美帕APP(py)",
-      "type": 3,
-      "api": "./plugin/app/美帕APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "奇迹APP.py",
-      "name": "奇迹APP(py)",
-      "type": 3,
-      "api": "./plugin/app/奇迹APP.py",
+      "api": "./plugin/app/恋鱼影视APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -291,10 +56,10 @@
       "ext": ""
     },
     {
-      "key": "若惜追剧APP.py",
-      "name": "若惜追剧APP(py)",
+      "key": "魔方影视APP.py",
+      "name": "魔方影视APP(py)",
       "type": 3,
-      "api": "./plugin/app/若惜追剧APP.py",
+      "api": "./plugin/app/魔方影视APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -302,32 +67,10 @@
       "ext": ""
     },
     {
-      "key": "hitvAPP.py",
-      "name": "hitvAPP(py)",
+      "key": "奇迹APP.py",
+      "name": "奇迹APP(py)",
       "type": 3,
-      "api": "./plugin/app/hitvAPP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "光速APP.py",
-      "name": "光速APP(py)",
-      "type": 3,
-      "api": "./plugin/app/光速APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "边缘影视APP.py",
-      "name": "边缘影视APP(py)",
-      "type": 3,
-      "api": "./plugin/app/边缘影视APP.py",
+      "api": "./plugin/app/奇迹APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -357,6 +100,17 @@
       "ext": ""
     },
     {
+      "key": "光速APP.py",
+      "name": "光速APP(py)",
+      "type": 3,
+      "api": "./plugin/app/光速APP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
       "key": "CliCli动漫APP.py",
       "name": "CliCli动漫APP(py)",
       "type": 3,
@@ -368,10 +122,10 @@
       "ext": ""
     },
     {
-      "key": "零度影视APP.py",
-      "name": "零度影视APP(py)",
+      "key": "哇哇APP.py",
+      "name": "哇哇APP(py)",
       "type": 3,
-      "api": "./plugin/app/零度影视APP.py",
+      "api": "./plugin/app/哇哇APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -379,21 +133,10 @@
       "ext": ""
     },
     {
-      "key": "皮皮虾APP.py",
-      "name": "皮皮虾APP(py)",
+      "key": "国外剧APP.py",
+      "name": "国外剧APP(py)",
       "type": 3,
-      "api": "./plugin/app/皮皮虾APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "视觉APP.py",
-      "name": "视觉APP(py)",
-      "type": 3,
-      "api": "./plugin/app/视觉APP.py",
+      "api": "./plugin/app/国外剧APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -412,10 +155,10 @@
       "ext": ""
     },
     {
-      "key": "恋鱼影视APP.py",
-      "name": "恋鱼影视APP(py)",
+      "key": "零度影视APP.py",
+      "name": "零度影视APP(py)",
       "type": 3,
-      "api": "./plugin/app/恋鱼影视APP.py",
+      "api": "./plugin/app/零度影视APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -423,10 +166,10 @@
       "ext": ""
     },
     {
-      "key": "云端APP.py",
-      "name": "云端APP(py)",
+      "key": "火车太顺APP.py",
+      "name": "火车太顺APP(py)",
       "type": 3,
-      "api": "./plugin/app/云端APP.py",
+      "api": "./plugin/app/火车太顺APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -434,10 +177,21 @@
       "ext": ""
     },
     {
-      "key": "云速影视APP.py",
-      "name": "云速影视APP(py)",
+      "key": "hitvAPP.py",
+      "name": "hitvAPP(py)",
       "type": 3,
-      "api": "./plugin/app/云速影视APP.py",
+      "api": "./plugin/app/hitvAPP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "皮皮虾APP.py",
+      "name": "皮皮虾APP(py)",
+      "type": 3,
+      "api": "./plugin/app/皮皮虾APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -456,10 +210,10 @@
       "ext": ""
     },
     {
-      "key": "芒.py",
-      "name": "芒(py)",
+      "key": "悠悠APP.py",
+      "name": "悠悠APP(py)",
       "type": 3,
-      "api": "./plugin/official/芒.py",
+      "api": "./plugin/app/悠悠APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -467,10 +221,10 @@
       "ext": ""
     },
     {
-      "key": "腾.py",
-      "name": "腾(py)",
+      "key": "MiFunAPP.py",
+      "name": "MiFunAPP(py)",
       "type": 3,
-      "api": "./plugin/official/腾.py",
+      "api": "./plugin/app/MiFunAPP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -478,10 +232,10 @@
       "ext": ""
     },
     {
-      "key": "优.py",
-      "name": "优(py)",
+      "key": "视觉APP.py",
+      "name": "视觉APP(py)",
       "type": 3,
-      "api": "./plugin/official/优.py",
+      "api": "./plugin/app/视觉APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -489,10 +243,10 @@
       "ext": ""
     },
     {
-      "key": "爱.py",
-      "name": "爱(py)",
+      "key": "边缘影视APP.py",
+      "name": "边缘影视APP(py)",
       "type": 3,
-      "api": "./plugin/official/爱.py",
+      "api": "./plugin/app/边缘影视APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -500,10 +254,10 @@
       "ext": ""
     },
     {
-      "key": "lavAPP.py",
-      "name": "lavAPP(py)",
+      "key": "美帕APP.py",
+      "name": "美帕APP(py)",
       "type": 3,
-      "api": "./plugin/adult/lavAPP.py",
+      "api": "./plugin/app/美帕APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -511,10 +265,10 @@
       "ext": ""
     },
     {
-      "key": "香蕉APP.py",
-      "name": "香蕉APP(py)",
+      "key": "三号动漫APP.py",
+      "name": "三号动漫APP(py)",
       "type": 3,
-      "api": "./plugin/adult/香蕉APP.py",
+      "api": "./plugin/app/三号动漫APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -522,10 +276,179 @@
       "ext": ""
     },
     {
-      "key": "Xvd.py",
-      "name": "Xvd(py)",
+      "key": "云端APP.py",
+      "name": "云端APP(py)",
       "type": 3,
-      "api": "./plugin/adult/Xvd.py",
+      "api": "./plugin/app/云端APP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "骚火电影.py",
+      "name": "骚火电影(py)",
+      "type": 3,
+      "api": "./plugin/html/骚火电影.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "小红影视.py",
+      "name": "小红影视(py)",
+      "type": 3,
+      "api": "./plugin/html/小红影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "金牌.py",
+      "name": "金牌(py)",
+      "type": 3,
+      "api": "./plugin/html/金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": {
+        "ext": {
+          "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+        }
+      }
+    },
+    {
+      "key": "嗷呜动漫.py",
+      "name": "嗷呜动漫(py)",
+      "type": 3,
+      "api": "./plugin/html/嗷呜动漫.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "红果网页.py",
+      "name": "红果网页(py)",
+      "type": 3,
+      "api": "./plugin/html/红果网页.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "剧粑粑.py",
+      "name": "剧粑粑(py)",
+      "type": 3,
+      "api": "./plugin/html/剧粑粑.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "柯南影视.py",
+      "name": "柯南影视(py)",
+      "type": 3,
+      "api": "./plugin/html/柯南影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "绝对影视.py",
+      "name": "绝对影视(py)",
+      "type": 3,
+      "api": "./plugin/html/绝对影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "好帅短剧.py",
+      "name": "好帅短剧(py)",
+      "type": 3,
+      "api": "./plugin/html/好帅短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "LIVES.py",
+      "name": "LIVES(py)",
+      "type": 3,
+      "api": "./plugin/html/LIVES.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "旺旺.py",
+      "name": "旺旺(py)",
+      "type": 3,
+      "api": "./plugin/html/旺旺.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "4KAV.py",
+      "name": "4KAV(py)",
+      "type": 3,
+      "api": "./plugin/html/4KAV.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "LREEOK.py",
+      "name": "LREEOK(py)",
+      "type": 3,
+      "api": "./plugin/html/LREEOK.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "偷乐短剧.py",
+      "name": "偷乐短剧(py)",
+      "type": 3,
+      "api": "./plugin/html/偷乐短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "甜圈短剧.py",
+      "name": "甜圈短剧(py)",
+      "type": 3,
+      "api": "./plugin/html/甜圈短剧.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -544,43 +467,32 @@
       "ext": ""
     },
     {
+      "key": "51吸瓜.py",
+      "name": "51吸瓜(py)",
+      "type": 3,
+      "api": "./plugin/adult/51吸瓜.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "香蕉APP.py",
+      "name": "香蕉APP(py)",
+      "type": 3,
+      "api": "./plugin/adult/香蕉APP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
       "key": "推特APP.py",
       "name": "推特APP(py)",
       "type": 3,
       "api": "./plugin/adult/推特APP.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "Xhm.py",
-      "name": "Xhm(py)",
-      "type": 3,
-      "api": "./plugin/adult/Xhm.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "花都.py",
-      "name": "花都(py)",
-      "type": 3,
-      "api": "./plugin/adult/花都.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-    {
-      "key": "浴火社APP.py",
-      "name": "浴火社APP(py)",
-      "type": 3,
-      "api": "./plugin/adult/浴火社APP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -599,10 +511,54 @@
       "ext": ""
     },
     {
-      "key": "51吸瓜.py",
-      "name": "51吸瓜(py)",
+      "key": "Xvd.py",
+      "name": "Xvd(py)",
       "type": 3,
-      "api": "./plugin/adult/51吸瓜.py",
+      "api": "./plugin/adult/Xvd.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "花都.py",
+      "name": "花都(py)",
+      "type": 3,
+      "api": "./plugin/adult/花都.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "Xhm.py",
+      "name": "Xhm(py)",
+      "type": 3,
+      "api": "./plugin/adult/Xhm.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "浴火社APP.py",
+      "name": "浴火社APP(py)",
+      "type": 3,
+      "api": "./plugin/adult/浴火社APP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "lavAPP.py",
+      "name": "lavAPP(py)",
+      "type": 3,
+      "api": "./plugin/adult/lavAPP.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -619,11 +575,55 @@
       "filterable": 1,
       "order_num": 0,
       "ext": ""
+    },
+    {
+      "key": "优.py",
+      "name": "优(py)",
+      "type": 3,
+      "api": "./plugin/official/优.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "腾.py",
+      "name": "腾(py)",
+      "type": 3,
+      "api": "./plugin/official/腾.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "芒.py",
+      "name": "芒(py)",
+      "type": 3,
+      "api": "./plugin/official/芒.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "爱.py",
+      "name": "爱(py)",
+      "type": 3,
+      "api": "./plugin/official/爱.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
     }
   ],
   "parses": [
     {
-      "name": "4k",
+      "name": "解析1",
       "url": "http://156.225.30.142:1001/api/index?parsesId=8&appid=10000&videoUrl=",
       "type": 1,
       "header": {
@@ -631,8 +631,16 @@
       }
     },
     {
-      "name": "巧计1https://zy.qiaoji8.com/gouzi.php?url=",
-      "url": "1",
+      "name": "解析2",
+      "url": "http://appym.lyyytv.cn/api/index?parsesId=1&appid=10000&videoUrl=",
+      "type": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "解析3",
+      "url": "http://121.62.21.61:8011/api/?key=TUV1b5pR3OPlJRCFaA&url=",
       "type": 0,
       "header": {
         "User-Agent": "Mozilla/5.0"
