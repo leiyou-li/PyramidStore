@@ -489,6 +489,17 @@
       "ext": ""
     },
     {
+      "key": "Miss.py",
+      "name": "Miss(py)",
+      "type": 3,
+      "api": "./plugin/adult/Miss.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
       "key": "推特APP.py",
       "name": "推特APP(py)",
       "type": 3,
@@ -504,6 +515,17 @@
       "name": "Phb(py)",
       "type": 3,
       "api": "./plugin/adult/Phb.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "DSYS.py",
+      "name": "DSYS(py)",
+      "type": 3,
+      "api": "./plugin/adult/DSYS.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
