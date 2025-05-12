@@ -177,6 +177,17 @@
       "ext": ""
     },
     {
+      "key": "海马影视APP.py",
+      "name": "海马影视APP(py)",
+      "type": 3,
+      "api": "./plugin/app/海马影视APP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
       "key": "hitvAPP.py",
       "name": "hitvAPP(py)",
       "type": 3,
