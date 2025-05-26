@@ -16,7 +16,7 @@ jobs:
 
       - name: Add upstream remote
         run: |
-          git remote add upstream https://github.com/JJBJJ/PyramidStore.git
+          git remote add upstream https://github.com/meinvtuzai/PyramidStore-18.git
           git fetch upstream
 
       - name: Merge upstream changes
