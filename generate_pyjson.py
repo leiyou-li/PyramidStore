@@ -92,11 +92,20 @@ def generate_pyjson():
         }
     }
 
+    # 需要排除的文件（不生成到 sites）
+    excluded_files = {"小白调试示例.py", "wogg_wobg分类筛选生成.py"}
+
+    # 自定义文件夹（手动上传的py文件）
+    custom_folder = "custom"
+
     # 遍历plugin目录
     plugin_dir = Path("plugin")
     for root, dirs, files in os.walk(plugin_dir):
         for file in files:
             if file.endswith('.py'):
+                # 跳过排除文件
+                if file in excluded_files:
+                    continue
                 # 获取相对路径
                 rel_path = Path(root).relative_to(plugin_dir)
                 file_path = f"./plugin/{rel_path}/{file}" if rel_path != Path('.') else f"./plugin/{file}"
@@ -111,13 +120,48 @@ def generate_pyjson():
                     "type": 3,
                     "api": file_path,
                     "searchable": 1,
+                    "changeable": 1,
                     "quickSearch": 1,
                     "filterable": 1,
-                    "order_num": 0,
-                    "ext": special_configs.get(file, "")
+                    "playerType": 2,
+                    "order_num": 0
                 }
+
+                # 合并特殊 ext 配置
+                if file in special_configs:
+                    site_config["ext"] = special_configs[file]
+                else:
+                    site_config["ext"] = ""
                 
                 base_config["sites"].append(site_config)
+
+    # 遍历自定义文件夹（如果存在）
+    custom_dir = Path(custom_folder)
+    if custom_dir.exists():
+        for file in custom_dir.glob("*.py"):
+            # 跳过排除文件
+            if file.name in excluded_files:
+                continue
+            
+            # 获取文件名（不含扩展名）
+            name = file.stem
+            
+            # 创建站点配置
+            site_config = {
+                "key": file.name,
+                "name": f"{name}(py)",
+                "type": 3,
+                "api": f"./{custom_folder}/{file.name}",
+                "searchable": 1,
+                "changeable": 1,
+                "quickSearch": 1,
+                "filterable": 1,
+                "playerType": 2,
+                "order_num": 0,
+                "ext": ""
+            }
+            
+            base_config["sites"].append(site_config)
 
     # 写入文件
     with open("py.json", "w", encoding="utf-8") as f:
